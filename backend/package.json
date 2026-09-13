@@ -1,0 +1,20 @@
+{
+  "name": "rekindle-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rekindle Backend - Supabase SQL Migrations, RPC Contracts, and Backend Server Utilities",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "rekindle",
+    "backend",
+    "supabase",
+    "sql",
+    "migrations"
+  ],
+  "author": "",
+  "license": "MIT"
+}

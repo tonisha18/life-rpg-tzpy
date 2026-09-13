@@ -1,0 +1,29 @@
+{
+  "name": "rekindle",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rekindle: A Studio Ghibli Countryside Cottage Life RPG with 360 Walkthrough & Supabase Backend",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "start": "node server.js",
+    "start:frontend": "npm run start --prefix frontend",
+    "start:backend": "npm run start --prefix backend",
+    "serve": "node server.js",
+    "install:all": "npm install --prefix frontend && npm install --prefix backend",
+    "lint": "npm run lint --prefix frontend"
+  },
+  "keywords": [
+    "life-rpg",
+    "studio-ghibli",
+    "360-walkthrough",
+    "supabase",
+    "nextjs",
+    "gamification"
+  ],
+  "author": "",
+  "license": "MIT"
+}
